@@ -1,0 +1,21 @@
+mi_funcion <- function() {
+  # Crear algunos data frames de ejemplo
+  df1 <- data.frame(A = 1:3, B = letters[1:3])
+  df2 <- data.frame(C = 4:6, D = letters[4:6])
+  
+  # Devolver los data frames en una lista
+  return(list(df1 = df1, df2 = df2))
+}
+
+# Llamar a la función y almacenar el resultado en una variable
+resultado <- mi_funcion()
+
+# Acceder a cada data frame desde la lista
+df1 <- resultado$df1
+df1
+
+df2 <- resultado$df2
+
+# Mostrar los data frames
+print(df1)
+print(df2)

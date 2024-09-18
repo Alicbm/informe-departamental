@@ -1,0 +1,33 @@
+#FILTRAR Y CALCULAR POR DEPARTAMENTO 
+# - CODIGO DANE
+# - REGION
+# - DENSIDAD POBLACIONAL
+# - EXTENSION TERRITORIAL
+# - NUMERO DE MUNICIPIOS
+
+library(data.table)
+library(readxl)
+
+terridata <- read_excel("terridata.xlsx") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
